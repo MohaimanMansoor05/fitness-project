@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dangrek&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+* {
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url('./2137499-1920x1080-desktop-1080p-gym-motivation-wallpaper.jpg');
+    background-size: cover;
+    background-position: center;
+    
+    }
+.navbar .nav-link {
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    font-size: 13px;
+}
+
+
+.navbar .nav-link:hover {
+    color: green !important;
+}
+.container .navbar-brand{
+
+    color: green;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.container .navbar-brand:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    }
+
+    
+.image .pic1{
+   
+    width: 60%;
+    height: 25%;
+    margin-top: 20px;
+    padding: 30px;
+    padding-left: 350px;
+    margin: 40px;
+}
+
+.image .pic1:hover{
+    cursor: pointer;
+    transition: 0.6s ease-out;
+    transform: scale(1.1);
+}
+
+.image .hdd{
+   
+    color: white;
+    font-size: 35px;
+    margin-left: 110px;
+    font-weight: 800;
+    padding: 20px;
+    padding-left: 360px;
+    width: 50%;
+    border-radius: 10px;
+}
+
+.image .hdd:hover{
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+  
+
+}
+
+/* .image .pdd{
+
+    color: white;
+    font-size: 20px;
+    padding: 30px;
+    padding-left: 90px;
+} */
+
+.image2 .pic2{
+    
+    width: 60%;
+    height: 25%;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 350px;
+    margin: 40px;
+}
+.image2 .pic2:hover{
+    cursor: pointer;
+    transition: 0.6s ease-out;
+    transform: scale(1.1);
+}
+.image2 .hdd2{
+    
+    color: white;
+    font-size: 35px;
+    padding-left: 330px;
+    margin-left: 110px;
+    font-weight: 800;
+}
+
+.image2 .hdd2:hover{
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+  
+
+}
+
+.image3 .pic3{
+    
+    width: 60%;
+    height: 25%;
+    font-size: 30px;
+    padding: 30px;
+    padding-left: 350px;
+    margin: 40px;
+}
+.image3 .pic3:hover{
+    cursor: pointer;
+    transition: 0.6s ease-out;
+    transform: scale(1.1);
+}
+
+.image3 .hdd3{
+
+    color: white;
+    font-size: 35px;
+    margin-left: 110px;
+    font-weight: 800;
+    padding-left: 350px;
+}
+
+.image3 .hdd3:hover{
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+  
+
+}
+
+.image .head{
+
+    color: white;
+    padding: 20px;
+    padding-left: 380px;
+    font-family: "Dangrek", sans-serif
+}
+.image .gym{
+
+    color: navy;
+    font-weight: 900;
+    font-size: 60px;
+}
+
+.image  .head .gym:hover{
+    
+    cursor: pointer;
+    transition: 0.6s ease-in-out;
+    transform: scale(1.1);
+}

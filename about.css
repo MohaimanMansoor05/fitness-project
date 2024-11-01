@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dangrek&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-image: url('./main.jpg');
+    background-size: cover;
+
+}
+
+
+
+
+.navbar .nav-link {
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;
+    transform: scale(1.1);
+    font-size: 13px;
+}
+
+
+.navbar .nav-link:hover {
+    color: green !important;
+}
+.container .navbar-brand{
+
+    color: green;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.container .navbar-brand:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    }
+
+    .contact-info h2{
+
+        color: white;
+        font-size: 35px;
+        font-weight: 900;
+    }
+    
+    .contact-info p{
+    
+        font-size: 20px;
+        font-weight: 700;
+    }
+    
+    .contact-info{
+    
+        background-color: rgba(216, 208, 210, 0.549);
+    
+        padding: 50px;
+        margin: auto;
+        width: 790px;
+        max-width: fit-content;
+        height: 700px;
+        border-radius: 10px;
+        backdrop-filter: blur(4px);
+        text-align: center;
+        box-shadow: 2px 2px 15px;
+        
+    }
+    .contact-info .contact-item h3{
+    
+        font-size: 23px;
+    }
+    
+    .contact-info .contact-item span{
+    
+        font-size: 23px;
+        font-weight: 800;
+    }
+
+    footer{
+
+        color: white;
+        font-size: 20px;
+        background-color: rgb(0, 0, 0);
+       
+        
+        border: 2px;
+        background-color: #535050cb; /* dark background */
+      
+        text-align: center;
+        width: 100%;
+      }
+    
+    footer p{
+    
+        padding-left: 30px;
+        font-family: "Bebas Neue", sans-serif;
+    }
+    
+    
+    
+    .social-icons a {
+        color: #fff; /* white color for icons */
+        margin: 0 10px;
+        font-size: 24px;
+        transition: color 0.3s ease;
+        text-decoration: none;
+    }
+    
+    .social-icons a:hover {
+        color: #1da1f2; /* Change color on hover */
+    }

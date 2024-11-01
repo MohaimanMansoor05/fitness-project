@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Dangrek&family=Limelight&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+*{
+
+    margin: 0;
+    padding: 0;
+}
+
+body{
+
+    background-color: rgb(8, 0, 92);
+}
+
+
+.navbar .nav-link {
+    transition: 0.3s ease-in-out, transform 0.3s ease-in-out;;
+    transform: scale(1.1);
+    font-size: 13px;
+}
+
+
+.navbar .nav-link:hover {
+    color: green !important;
+}
+.container .navbar-brand{
+
+    color: green;
+    font-family: "Bebas Neue", sans-serif;
+    font-size: 40px;
+}
+.container .navbar-brand:hover{
+    cursor: pointer;
+    transition: 0.3s ease-in-out;
+    transform: scale(1.1);
+    }
+
+    .head .headbar{
+        background-color: gray;
+        padding: 20px;
+        margin: 30px;
+        box-shadow: 3px 4px;
+        border-radius: 9px;
+    }
+ 
+.head .headbar h1{
+
+    font-size: 34px;
+    font-weight: 800;
+}
+
+.head .headbar p{
+
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.head .start h1{
+
+    color: rgba(255, 255, 255, 0.863);
+    padding: 30px;
+    margin: 20px;
+    padding-left: 380px;
+    font-size: 40px;
+    font-weight: 800;
+
+
+}
+
+.head .proteins{
+  
+    background-color: gray;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 3px 5px;
+    border-radius: 12px;
+
+}
+.head .proteins h2{
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 650px;
+
+}
+
+.head .proteins .image1{
+
+    width: 70%;
+    height: 20%;
+    padding-left: 500px;
+}
+
+
+
+
+.head .proteins .para1{
+
+    padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+.head .proteins .para2{
+
+    padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.head .carbohydrate{
+    background-color: gray;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 3px 5px;
+    border-radius: 12px;
+}
+
+
+.head .carbohydrate h2{
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 650px;
+
+}
+
+.head .carbohydrate .image2{
+
+    width: 70%;
+    height: 10%;
+    padding-left: 500px;
+}
+
+.head .carbohydrate p{
+        padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.head .fats{
+    background-color: gray;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 3px 5px;
+    border-radius: 12px;
+}
+
+
+.head .fats h2{
+
+    color: rgb(0, 0, 0);
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 650px;
+
+}
+
+.head .fats .image3{
+    width: 70%;
+    height: 10%;
+    padding-left: 500px;
+}
+
+.head .fats p{
+        padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 800;
+
+}
+
+.head .supplement{
+    background-color: gray;
+    padding: 20px;
+    margin: 30px;
+    box-shadow: 3px 5px;
+    border-radius: 12px;
+}
+
+.head .supplement h2{
+
+    color: black;
+    font-size: 40px;
+    font-weight: 900;
+    padding-left: 450px;
+
+}
+
+.head .supplement .image4{
+    width: 70%;
+    height: 10%;
+    padding-left: 500px;
+    border-radius: 20px;
+}
+
+.head .supplement p{
+        padding: 20px;
+    margin: 30px;
+    font-size: 25px;
+    font-weight: 800;
+
+}
